@@ -20,10 +20,30 @@ body{
   border: 1px solid salmon;
   display: flex;
   margin: 5px;
+  padding: 10px;
 }
+
 span{
   color: gainsboro;
 
+}
+
+button{
+  background-color: green;
+  color: black;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+}
+
+.heading{
+  padding: 10px;
+}
+.pic1{
+  padding: 10px;
+}
+.text1{
+  padding: 10px;
 }
 
 /*part1Right*/
@@ -31,6 +51,31 @@ span{
   border: 1px solid red;
   flex-direction: column;
   margin: 20px;
+}
+
+.card{
+  padding: 10px;
+  border: 1px solid brown;
+  margin: 10px;
+  
+}
+.row1, .row2, .row3{
+  border: 1px solid blue;
+  margin: 10px;
+}
+.row1 >p{
+  padding: 5px;
+  float: right;
+}
+
+.row2 >p {
+  padding: 5px;
+  float: right;
+}
+
+.row3 >p {
+  padding: 5px;
+  float: right;
 }
 
 /*paart2*/
