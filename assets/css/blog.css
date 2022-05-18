@@ -16,6 +16,12 @@ body{
     margin: 20px;
 
 }
+.readmorebutton1{
+  border: 1px solid salmon;
+  display: flex;
+  margin: 5px;
+}
+
 /*
 .heading{
   position: absolute;
@@ -65,4 +71,38 @@ position: absolute;
 .row3{
   position: absolute;
 
+}
+
+.part1 {
+  display: flex;
+  margin: 50px;
+  border: 1px solid rebeccapurple;
+}
+*/
+.part2{
+  display: flex;
+  margin: 50px;
+  border: 1px solid rebeccapurple;
+}
+
+ 
+.part2Left {
+
+  border: 1px solid red;
+  flex-direction: column;
+  margin: 20px;
+
+}
+
+.readmorebutton2 {
+  border: 1px solid salmon;
+  display: flex;
+  margin: 5px;
+}
+
+/*part2Right*/
+.part2Right {
+  border: 1px solid red;
+  flex-direction: column;
+  margin: 20px;
 }
