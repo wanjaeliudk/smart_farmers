@@ -68,16 +68,19 @@ button{
 .row1 >p{
   
   float: right;
+  padding-right: 30px;
 }
 
 .row2 >p {
 
   float: right;
+  
 }
 
 .row3 >p {
   
   float: right;
+  padding-right: 55px;
 }
 
 .socialIcons1{
