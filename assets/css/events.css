@@ -102,3 +102,46 @@
   width: 100%;
   height: 200px;
 }
+.freebtn {
+  position: absolute;
+  top: 50%;
+  left: 91%;
+  transform: translate(-50%, -50%);
+}
+.free {
+  background-color: green;
+  color: white;
+  padding-top: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 5px;
+}
+.card_body {
+  position: absolute;
+  top: 210px;
+  display: flex;
+  align-content: space-around;
+}
+.card_body h4 {
+  margin-left: 20px;
+}
+.cardText {
+  margin-left: 50px;
+}
+.icons {
+  position: absolute;
+  top: 350px;
+  display: flex;
+  padding-left: 100px;
+}
+.icons ul li {
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.hline{
+  height: 20px;
+}
+#socio {
+  color: green;
+}
