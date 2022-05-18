@@ -1,0 +1,68 @@
+body{
+  background-color: white;
+}
+
+.part1{
+  display: flex;
+  margin: 50px;
+  border: 1px solid rebeccapurple;
+}
+
+/* part1Left */
+.part1Left{
+
+  border: 1px solid red;
+    flex-direction: column;
+    margin: 20px;
+
+}
+/*
+.heading{
+  position: absolute;
+}
+
+.pic1{
+    position: absolute;
+    width: 75px;
+    height: 77px;
+    border: 2px solid #F5FA08;
+}
+
+.text1{
+  position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+  
+    color: #000000;
+}
+
+
+/*part1Right*/
+.part1Right{
+  border: 1px solid red;
+    flex-direction: column;
+    margin: 20px;
+}
+/*
+.card{
+  display: flex;
+  flex-direction: row;
+}
+
+.row1{
+  position: absolute;
+
+}
+.row2{
+position: absolute;
+
+
+}
+
+.row3{
+  position: absolute;
+
+}
