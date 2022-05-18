@@ -66,18 +66,28 @@ button{
   margin: 10px;
 }
 .row1 >p{
-  padding-right: 30px;
+  
   float: right;
 }
 
 .row2 >p {
-  padding: 30px;
+
   float: right;
 }
 
 .row3 >p {
-  padding: 30px;
+  
   float: right;
+}
+
+.socialIcons1{
+  padding: 10px;
+}
+
+#icons{
+padding: 10px;
+
+
 }
 
 /*paart2*/
