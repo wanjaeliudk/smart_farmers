@@ -23,12 +23,13 @@ nav .wrapper{
     align-items: center;
     justify-content: space-between;
 }
-.wrapper .logo a{
+.wrapper .logo {
     color: #f2f2f2;
     font-size: 30px;
     font-weight: 600;
     text-decoration: none;
 }
+
 .wrapper .nav-links{
     display: inline-flex;
 }
