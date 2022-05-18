@@ -6,6 +6,7 @@ body{
   display: flex;
   margin: 50px;
   border: 1px solid rebeccapurple;
+  justify-content: center;
 }
 
 /* part1Left */
@@ -46,6 +47,7 @@ button{
   padding: 10px;
 }
 
+
 /*part1Right*/
 .part1Right {
   border: 1px solid red;
@@ -64,17 +66,17 @@ button{
   margin: 10px;
 }
 .row1 >p{
-  padding: 5px;
+  padding-right: 30px;
   float: right;
 }
 
 .row2 >p {
-  padding: 5px;
+  padding: 30px;
   float: right;
 }
 
 .row3 >p {
-  padding: 5px;
+  padding: 30px;
   float: right;
 }
 
@@ -83,6 +85,7 @@ button{
   display: flex;
   margin: 50px;
   border: 1px solid rebeccapurple;
+  justify-content: center;
 }
 
  
@@ -100,9 +103,39 @@ button{
   margin: 5px;
 }
 
+.heading2 {
+  padding: 10px;
+}
+
+.pic2 {
+  padding: 10px;
+}
+
+.text2 {
+  padding: 10px;
+}
+
 /*part2Right*/
 .part2Right {
   border: 1px solid red;
   flex-direction: column;
   margin: 20px;
+}
+
+.card2{
+  padding: 10px;
+  border: 1px solid brown;
+  margin: 10px;
+
+}
+
+.card2Row1,
+.card2Row2 {
+  border: 1px solid blue;
+  margin: 10px;
+}
+
+.card2Row1,
+.card2Row2 {
+  padding: 5px;
 }
