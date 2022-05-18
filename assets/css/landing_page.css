@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -72,6 +72,7 @@
     }
 
 }
+<<<<<<< HEAD
 
 @media screen and (max-width: 970px) {
     .body-text {
@@ -80,3 +81,9 @@
         width: 100%;
     }
 }
+=======
+.body-text div{
+    font-size: 45px;
+    font-weight: a600;
+} */
+>>>>>>> 05fa5e6d54ac188d9627e71c509a0afb0d6081d4
