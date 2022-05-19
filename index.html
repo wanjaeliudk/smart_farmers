@@ -11,91 +11,49 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 </head>
 <body>
-<nav>
-  <div class="wrapper">
-    <div class="logo">
-      <img src="./assets/images/dawnslogo.png" alt="">Smart Farmers
-    </div>
-    <input type="radio" name="slider" id="menu-btn">
-    <input type="radio" name="slider" id="close-btn">
-    <ul class="nav-links">
-      <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
-      <li><a href="events.html">Events</a></li>
-      <li><a href="blog.html">Blog</a></li>
-      <li>
-        <a href="#" class="desktop-item">Dropdown Menu</a>
-        <input type="checkbox" id="showDrop">
-        <label for="showDrop" class="mobile-item">Dropdown Menu</label>
-        <ul class="drop-menu">
-          <li><a href="#">Drop menu 1</a></li>
-          <li><a href="#">Drop menu 2</a></li>
-          <li><a href="#">Drop menu 3</a></li>
-          <li><a href="#">Drop menu 4</a></li>
-        </ul>
-      </li>
-      <li>
-        <a href="#" class="desktop-item">Products</a>
-        <input type="checkbox" id="showMega">
-        <label for="showMega" class="mobile-item">Products</label>
-        <div class="mega-box">
-          <div class="content">
-            <div class="row">
-              <img src="./assets/images/Rectangle%20289.png" alt="">
-            </div>
-            <div class="row">
-              <header>Vegetables</header>
-              <ul class="mega-links">
-                <li><a href="#">Roots</a></li>
-                <li><a href="#">Greens</a></li>
-                <li><a href="#">Fruits</a></li>
-                <li><a href="#">Custom logo</a></li>
-              </ul>
-            </div>
 
-            <div class="row">
-              <header>Transport Services</header>
-              <ul class="mega-links">
-                <li><a href="#">Motor bike</a></li>
-                <li><a href="#">Heavy Truck</a></li>
-                <li><a href="#">Pick-up</a></li>
-                <li><a href="#">Lorry</a></li>
-              </ul>
-            </div>
-            <div class="row">
-              <header> services</header>
-              <ul class="mega-links">
-                <li><a href="#">Services</a></li>
-                <li><a href="#">services</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Services</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </li>
-      <li>
-        <a href="#" class="desktop-item">Account</a>
-        <input type="checkbox" id="show-Drop">
-        <label for="showDrop" class="mobile-item">Account</label>
-        <ul class="drop-menu">
-          <li><a href="#">Login</a></li>
-          <li><a href="register.html">Sign up</a></li>
-        </ul>
-      </li>
-<!--      <li><a href="register.html">Account</a></li>-->
-    </ul>
-    <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
 
+
+<!-- header section starts  -->
+
+<header class="header">
+
+  <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> Smart Farmers </a>
+
+  <nav class="navbar">
+    <a href="#home">home</a>
+    <a href="#features">Events</a>
+    <a href="#products">products</a>
+    <a href="#categories">categories</a>
+    <a href="#review">review</a>
+    <a href="#blogs">blogs</a>
+  </nav>
+
+  <div class="icons">
+    <div class="fas fa-bars" id="menu-btn"></div>
+    <div class="fas fa-search" id="search-btn"></div>
+    <div class="fas fa-user" id="login-btn"></div>
   </div>
-</nav>
-<!--end of nav bar-->
 
-<!--header overlay section-->
-<!--<div class="body-text">-->
-<!--  <div class="text">-->
-<!--    <p>We connect farmers to the market without the middle man</p>-->
-<!--  </div>-->
-<!--</div>-->
+  <form action="" class="search-form">
+    <input type="search" id="search-box" placeholder="search here...">
+    <label for="search-box" class="fas fa-search"></label>
+  </form>
+
+
+  <form action="" class="login-form">
+    <h3>login now</h3>
+    <input type="email" placeholder="your email" class="box">
+    <input type="password" placeholder="your password" class="box">
+    <p>forget your password <a href="#">click here</a></p>
+    <p>don't have an account <a href="register.html">create now</a></p>
+    <input type="submit" value="login now" class="btn">
+  </form>
+
+</header>
+
+<!-- header section ends -->
+
 <!-- home section starts  -->
 
 <section class="home" id="home">
@@ -110,14 +68,103 @@
 
 <!-- home section ends -->
 
+<div class="products"></div>
 
-<!--display items section-->
-<div class="product-container">
-  <div class="product">
+
+
+
+<section class="categories" id="categories">
+
+  <h1 class="heading"> product <span>categories</span> </h1>
+
+  <div class="box-container">
+
+    <div class="box">
+      <img src="./assets/images/cat-1.png" alt="">
+      <h3>Vegetables</h3>
+      <p>upto 45% off</p>
+      <a href="#" class="btn">shop now</a>
+    </div>
+
+    <div class="box">
+      <img src="./assets/images/cat-2.png" alt="">
+      <h3>fresh fruits</h3>
+      <p>upto 45% off</p>
+      <a href="#" class="btn">shop now</a>
+    </div>
+
+    <div class="box">
+      <img src="./assets/images/cat-3.png" alt="">
+      <h3>dairy products</h3>
+      <p>upto 45% off</p>
+      <a href="#" class="btn">shop now</a>
+    </div>
+
+    <div class="box">
+      <img src="./assets/images/cat-4.png" alt="">
+      <h3>fresh meat</h3>
+      <p>upto 45% off</p>
+      <a href="#" class="btn">shop now</a>
+    </div>
 
   </div>
-</div>
+
+</section>
 
 
+
+
+<section class="footer">
+
+  <div class="box-container">
+
+    <div class="box">
+      <h3> Smart Farming <i class="fas fa-shopping-basket"></i> </h3>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, saepe.</p>
+      <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+      </div>
+    </div>
+
+    <div class="box">
+      <h3>contact info</h3>
+      <a href="#" class="links"> <i class="fas fa-phone"></i> +254-456-7890 </a>
+      <a href="#" class="links"> <i class="fas fa-phone"></i> +254-222-3333 </a>
+      <a href="#" class="links"> <i class="fas fa-envelope"></i> smartFarmers@gmail.com </a>
+      <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Nairobi, Kenya - 400104 </a>
+    </div>
+
+    <div class="box">
+      <h3>quick links</h3>
+      <a href="#" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+      <a href="#" class="links"> <i class="fas fa-arrow-right"></i> features </a>
+      <a href="#" class="links"> <i class="fas fa-arrow-right"></i> products </a>
+      <a href="#" class="links"> <i class="fas fa-arrow-right"></i> categories </a>
+      <a href="#" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+      <a href="#" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
+    </div>
+
+    <div class="box">
+      <img src="./assets/images/iphone.png" alt="">
+    </div>
+
+  </div>
+
+  <div class="credit"> created by <span> </span> | all rights reserved </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="./assets/js/index.js"></script>
 </body>
 </html>

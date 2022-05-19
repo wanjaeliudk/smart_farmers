@@ -1,0 +1,38 @@
+[
+  {
+    "image": "./assets/images/cat-1.png",
+    "title": "Product title",
+    "description": "Lorem ipsum dolor sit amet consectetur.",
+    "price": "9,99"
+  },
+  {
+    "image": "./assets/images/cat-1.png",
+    "title": "Product title",
+    "description": "Lorem ipsum dolor sit amet consectetur.",
+    "price": "9,99"
+  },
+  {
+    "image": "./assets/images/cat-1.png",
+    "title": "Product title",
+    "description": "Lorem ipsum dolor sit amet consectetur.",
+    "price": "9,99"
+  },
+  {
+    "image": "./assets/images/cat-1.png",
+    "title": "Product title",
+    "description": "Lorem ipsum dolor sit amet consectetur.",
+    "price": "9,99"
+  },
+  {
+    "image": "./assets/images/cat-1.png",
+    "title": "Product title",
+    "description": "Lorem ipsum dolor sit amet consectetur.",
+    "price": "9,99"
+  },
+  {
+    "image": "./assets/images/cat-1.png",
+    "title": "Product title",
+    "description": "Lorem ipsum dolor sit amet consectetur.",
+    "price": "9,99"
+  }
+]
