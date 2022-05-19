@@ -1,3 +1,4 @@
+
 /*body{*/
 /*  background-color: white;*/
 /*  */
@@ -158,3 +159,165 @@
 /*.card2Row2 {*/
 /*  padding: 5px;*/
 /*}*/
+
+body {
+  background-color: white;
+}
+
+.part1 {
+  margin-top: 100px;
+  display: flex;
+  /*margin: 50px;*/
+  border: 1px solid rebeccapurple;
+  justify-content: center;
+  /*padding-bottom: 1000px;*/
+}
+
+/* part1Left */
+.part1Left {
+
+  border: 1px solid red;
+  flex-direction: column;
+  margin: 20px;
+
+}
+
+.readmorebutton1 {
+  border: 1px solid salmon;
+  display: flex;
+  margin: 5px;
+  padding: 10px;
+}
+
+span {
+  color: gainsboro;
+
+}
+
+button {
+  background-color: green;
+  color: black;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+}
+
+.headings {
+  padding: 10px;
+}
+
+.pic1 {
+  padding: 10px;
+}
+
+.text1 {
+  padding: 10px;
+}
+
+
+/*part1Right*/
+.part1Right {
+  border: 1px solid red;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.card {
+  padding: 10px;
+  border: 1px solid brown;
+  margin: 10px;
+
+}
+
+.row1,
+.row2,
+.row3 {
+  border: 1px solid blue;
+  margin: 10px;
+}
+
+.row1>p {
+
+  float: right;
+}
+
+.row2>p {
+
+  float: right;
+}
+
+.row3>p {
+
+  float: right;
+}
+
+.socialIcons1 {
+  padding: 10px;
+}
+
+#icons {
+  padding: 10px;
+
+
+}
+
+/*paart2*/
+.part2 {
+  display: flex;
+  margin: 50px;
+  border: 1px solid rebeccapurple;
+  justify-content: center;
+}
+
+
+.part2Left {
+
+  border: 1px solid red;
+  flex-direction: column;
+  margin: 20px;
+
+}
+
+.readmorebutton2 {
+  border: 1px solid salmon;
+  display: flex;
+  margin: 5px;
+}
+
+.heading2 {
+  padding: 10px;
+}
+
+.pic2 {
+  padding: 10px;
+}
+
+.text2 {
+  padding: 10px;
+}
+
+/*part2Right*/
+.part2Right {
+  border: 1px solid red;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.card2 {
+  padding: 10px;
+  border: 1px solid brown;
+  margin: 10px;
+
+}
+
+.card2Row1,
+.card2Row2 {
+  border: 1px solid blue;
+  margin: 10px;
+}
+
+.card2Row1,
+.card2Row2 {
+  padding: 5px;
+}
+
