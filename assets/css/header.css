@@ -11,11 +11,12 @@ nav{
     width: 100%;
 
     background: #11be11;
+    /*background-image: url("../images/banner.png");*/
 }
 nav .wrapper{
     position: relative;
     max-width: 1300px;
-    padding: 0px 30px;
+    padding: 0 30px;
     height: 70px;
     line-height: 70px;
     margin: auto;
@@ -23,12 +24,13 @@ nav .wrapper{
     align-items: center;
     justify-content: space-between;
 }
-.wrapper .logo a{
+.wrapper .logo {
     color: #f2f2f2;
     font-size: 30px;
     font-weight: 600;
     text-decoration: none;
 }
+
 .wrapper .nav-links{
     display: inline-flex;
 }
@@ -132,7 +134,12 @@ nav .wrapper{
     right: 30px;
     top: 10px;
 }
+
+/* media queries  */
 @media screen and (max-width: 970px) {
+    .wrapper .logo{
+
+    }
     .wrapper .btn{
         display: block;
     }
@@ -223,7 +230,7 @@ nav .wrapper{
         opacity: 1;
         visibility: visible;
         padding: 0 20px;
-        max-height: 0px;
+        max-height: 0;
         overflow: hidden;
         transition: all 0.3s ease;
     }
@@ -239,10 +246,10 @@ nav .wrapper{
     }
     .mega-box .content .row:nth-child(1),
     .mega-box .content .row:nth-child(2){
-        border-top: 0px;
+        border-top: 0;
     }
     .content .row .mega-links{
-        border-left: 0px;
+        border-left: 0;
         padding-left: 15px;
     }
     .row .mega-links li{

@@ -1,24 +1,24 @@
-/* header  */
-.header{
+/* intro  */
+.intro{
   position: relative;
   /* text-align: center; */
   color: white;
 }
-.header > img {
+.intro > img {
   width: 100%;
   max-height: 100%;
   height: 600px;
 }
-.header .text {
+.intro .text {
   position: absolute;
   top: 50%;
   left: 30%;
   transform: translate(-50%, -50%);
 }
-.header .text h3{
+.intro .text h3{
   color: yellow;
 }
-.header .postBtn{
+.intro .postBtn{
   position: absolute;
   top: 50%;
   left: 70%;
@@ -30,22 +30,6 @@
   padding: 10px;
   border-radius: 10px;
 }
-
-/* upcoming events  */
-/* .upcoming_events {
-  position: relative;
-  padding-left: 40px;
-  margin-top: 10px;
-}
-.upcoming_events .rect {
-  background-color: grey;
-  width: 82px;
-  height: 18px;
-  position: absolute;
-  top: 0%;
-  left: 2.5%;
-  opacity: 0.4;
-  /* transform: translate(-50%, -50%); */
 
 .upcomingEvents {
   position: absolute;
@@ -131,7 +115,7 @@
   position: absolute;
   top: 350px;
   display: flex;
-  padding-left: 100px;
+  left: 30%;
 }
 .icons ul li {
   display: inline-block;
@@ -168,4 +152,55 @@
   position: absolute;
   width: 100%;
   top: 450px;
+}
+
+@media screen and (max-width:1200px){
+  .cards, .cards2 {
+    font-size: small;
+  } 
+}
+@media screen and (max-width:1100px){
+  .intro .postBtn{
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+  }
+  .intro .text {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+  }
+  .freebtn {
+    position: absolute;
+    top: 50%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media screen and (max-width: 950px){
+  .freebtn {
+    position: absolute;
+    top: 50%;
+    left: 87%;
+    transform: translate(-50%, -50%);
+  }
+  .cardText {
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 890px){
+  .cards, .cards2 {
+    font-size: smaller;
+  } 
+  .freebtn {
+    position: absolute;
+    top: 50%;
+    left: 86%;
+    transform: translate(-50%, -50%);
+  }
+  .cardText {
+    margin-left: 15px;
+  }
 }
