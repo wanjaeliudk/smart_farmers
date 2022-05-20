@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*!*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');*!*/
 /*!**{*!*/
 /*!*    margin: 0;*!*/
@@ -9,6 +10,8 @@
 
 
 
+=======
+>>>>>>> 6861b5ae4983bdb8be688871f00322498f049e77
 * {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -81,6 +84,7 @@ body {
 
 .header .navbar a:hover{
     color:var(--orange);
+<<<<<<< HEAD
 }
 
 .header .icons div{
@@ -96,6 +100,23 @@ body {
     text-align: center;
 }
 
+=======
+}
+
+.header .icons div{
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    border-radius: .5rem;
+    background: #eee;
+    color:var(--black);
+    font-size: 2rem;
+    margin-left: .3rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+>>>>>>> 6861b5ae4983bdb8be688871f00322498f049e77
 .header .icons div:hover{
     background: var(--orange);
     color:#fff;
@@ -131,6 +152,7 @@ body {
     font-size: 1.6rem;
     color:var(--black);
     padding:0 1.5rem;
+<<<<<<< HEAD
 }
 
 .header .search-form label{
@@ -144,6 +166,21 @@ body {
     color:var(--orange);
 }
 
+=======
+}
+
+.header .search-form label{
+    font-size: 2.2rem;
+    padding-right: 1.5rem;
+    color:var(--black);
+    cursor: pointer;
+}
+
+.header .search-form label:hover{
+    color:var(--orange);
+}
+
+>>>>>>> 6861b5ae4983bdb8be688871f00322498f049e77
 .header .shopping-cart{
     position: absolute;
     top:110%; right:-110%;
