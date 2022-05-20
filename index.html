@@ -18,7 +18,7 @@
   <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> Smart Farmers </a>
 
   <nav class="navbar">
-    <a href="#home">home</a>
+    <a href="index.html">home</a>
     <a href="events.html">Events</a>
     <a href="#products">products</a>
     <a href="#categories">categories</a>
@@ -40,11 +40,11 @@
 
   <form action="" class="login-form">
     <h3>login now</h3>
-    <input type="email" placeholder="your email" class="box">
-    <input type="password" placeholder="your password" class="box">
+    <input type="email" placeholder="your email" name="username" class="box" id="username">
+    <input type="password" placeholder="your password" name="password" class="box" id="password">
     <p>forget your password <a href="#">click here</a></p>
     <p>don't have an account <a href="register.html">create now</a></p>
-    <input type="submit" value="login now" class="btn">
+    <input type="submit" value="login now" class="btn" id="submit" onclick="validate()">
   </form>
 
 </header>
@@ -64,6 +64,8 @@
 </section>
 
 <!-- home section ends -->
+
+<h1 class="heading"> <span>Products</span></h1>
 
 <div class="products"></div>
 

@@ -4,6 +4,13 @@
   /* text-align: center; */
   color: white;
 }
+
+p {
+  font-size: 2em;
+}
+h4 {
+  font-size: 2em;
+}
 .intro > img {
   width: 100%;
   max-height: 100%;
@@ -111,13 +118,13 @@
 .cardText {
   margin-left: 50px;
 }
-.icons {
+.media {
   position: absolute;
   top: 350px;
   display: flex;
   left: 30%;
 }
-.icons ul li {
+.media ul li {
   display: inline-block;
   padding-left: 20px;
 }
